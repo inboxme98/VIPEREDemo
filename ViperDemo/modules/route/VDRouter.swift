@@ -14,6 +14,11 @@ class VDRouter: PresenterToRouterProtocol{
     class func createModule() ->UIViewController
     {
         let viewCon = mainstoryboard.instantiateViewController(withIdentifier: "VDViewController") as? VDViewController
+        
+        
+        //let presenter : ViewToPresenterProtocol & InteractorToPresenterProtocol = VDPresenter
+        
+        
             return viewCon!;
     }
     

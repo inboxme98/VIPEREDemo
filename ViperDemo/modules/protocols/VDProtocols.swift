@@ -26,7 +26,7 @@ protocol PresenterToViewProtocol: class
 {
     
 }
-protocol ViewProtocolToPresenter: class
+protocol ViewToPresenterProtocol: class
 {
     
 }

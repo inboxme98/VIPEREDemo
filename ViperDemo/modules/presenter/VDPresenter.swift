@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class VDPresenter: ViewToPresenterProtocol
+{
+    
+}
+
+extension VDPresenter: InteractorToPresenterProtocol
+{
+    
+}

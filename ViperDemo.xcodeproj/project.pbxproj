@@ -146,12 +146,12 @@
 		D8916A6D23A3980300DF4BB1 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				D8916A7523A398A200DF4BB1 /* view */,
+				D8916A7323A3989200DF4BB1 /* interactor */,
+				D8916A7423A3989B00DF4BB1 /* presenter */,
+				D8916A7223A3988D00DF4BB1 /* entity */,
 				D8916A7123A3988800DF4BB1 /* route */,
 				D8916A6E23A3985A00DF4BB1 /* protocols */,
-				D8916A7523A398A200DF4BB1 /* view */,
-				D8916A7423A3989B00DF4BB1 /* presenter */,
-				D8916A7323A3989200DF4BB1 /* interactor */,
-				D8916A7223A3988D00DF4BB1 /* entity */,
 			);
 			path = modules;
 			sourceTree = "<group>";
