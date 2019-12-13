@@ -14,14 +14,14 @@
 		D8916A5523A3967100DF4BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8916A5423A3967100DF4BB1 /* Assets.xcassets */; };
 		D8916A5823A3967100DF4BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8916A5623A3967100DF4BB1 /* LaunchScreen.storyboard */; };
 		D8916A6323A3967100DF4BB1 /* ViperDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A6223A3967100DF4BB1 /* ViperDemoTests.swift */; };
-		D8916A7023A3988200DF4BB1 /* ViperDemoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A6F23A3988200DF4BB1 /* ViperDemoProtocols.swift */; };
-		D8916A7723A398BC00DF4BB1 /* ViperDemoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A7623A398BC00DF4BB1 /* ViperDemoRouter.swift */; };
+		D8916A7023A3988200DF4BB1 /* VDProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A6F23A3988200DF4BB1 /* VDProtocols.swift */; };
+		D8916A7723A398BC00DF4BB1 /* VDRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A7623A398BC00DF4BB1 /* VDRouter.swift */; };
 		D8916A7923A398D500DF4BB1 /* VDNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A7823A398D500DF4BB1 /* VDNewsModel.swift */; };
 		D8916A7B23A398E200DF4BB1 /* VDNewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A7A23A398E200DF4BB1 /* VDNewsResponse.swift */; };
-		D8916A7D23A398F100DF4BB1 /* ViperDemoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A7C23A398F100DF4BB1 /* ViperDemoInteractor.swift */; };
-		D8916A7F23A398FB00DF4BB1 /* ViperDemoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A7E23A398FB00DF4BB1 /* ViperDemoPresenter.swift */; };
+		D8916A7D23A398F100DF4BB1 /* VDInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A7C23A398F100DF4BB1 /* VDInteractor.swift */; };
+		D8916A7F23A398FB00DF4BB1 /* VDPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A7E23A398FB00DF4BB1 /* VDPresenter.swift */; };
 		D8916A8823A39D8F00DF4BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8916A8623A39D8F00DF4BB1 /* Main.storyboard */; };
-		D8916A8923A39D8F00DF4BB1 /* ViperDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A8723A39D8F00DF4BB1 /* ViperDemoViewController.swift */; };
+		D8916A8923A39D8F00DF4BB1 /* VDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916A8723A39D8F00DF4BB1 /* VDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +47,14 @@
 		D8916A5E23A3967100DF4BB1 /* ViperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8916A6223A3967100DF4BB1 /* ViperDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperDemoTests.swift; sourceTree = "<group>"; };
 		D8916A6423A3967100DF4BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8916A6F23A3988200DF4BB1 /* ViperDemoProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperDemoProtocols.swift; sourceTree = "<group>"; };
-		D8916A7623A398BC00DF4BB1 /* ViperDemoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperDemoRouter.swift; sourceTree = "<group>"; };
+		D8916A6F23A3988200DF4BB1 /* VDProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDProtocols.swift; sourceTree = "<group>"; };
+		D8916A7623A398BC00DF4BB1 /* VDRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDRouter.swift; sourceTree = "<group>"; };
 		D8916A7823A398D500DF4BB1 /* VDNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDNewsModel.swift; sourceTree = "<group>"; };
 		D8916A7A23A398E200DF4BB1 /* VDNewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDNewsResponse.swift; sourceTree = "<group>"; };
-		D8916A7C23A398F100DF4BB1 /* ViperDemoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperDemoInteractor.swift; sourceTree = "<group>"; };
-		D8916A7E23A398FB00DF4BB1 /* ViperDemoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperDemoPresenter.swift; sourceTree = "<group>"; };
+		D8916A7C23A398F100DF4BB1 /* VDInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDInteractor.swift; sourceTree = "<group>"; };
+		D8916A7E23A398FB00DF4BB1 /* VDPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDPresenter.swift; sourceTree = "<group>"; };
 		D8916A8623A39D8F00DF4BB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		D8916A8723A39D8F00DF4BB1 /* ViperDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperDemoViewController.swift; sourceTree = "<group>"; };
+		D8916A8723A39D8F00DF4BB1 /* VDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDViewController.swift; sourceTree = "<group>"; };
 		EF5383DF066D7B98AE7F36F0 /* Pods-ViperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperDemo.release.xcconfig"; path = "Target Support Files/Pods-ViperDemo/Pods-ViperDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F57C8F168ADBCE063D3AFF2D /* Pods-ViperDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ViperDemoTests/Pods-ViperDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		FEE23F2EA5DE1FD64D065767 /* Pods-ViperDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ViperDemoTests/Pods-ViperDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		D8916A6E23A3985A00DF4BB1 /* protocols */ = {
 			isa = PBXGroup;
 			children = (
-				D8916A6F23A3988200DF4BB1 /* ViperDemoProtocols.swift */,
+				D8916A6F23A3988200DF4BB1 /* VDProtocols.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 		D8916A7123A3988800DF4BB1 /* route */ = {
 			isa = PBXGroup;
 			children = (
-				D8916A7623A398BC00DF4BB1 /* ViperDemoRouter.swift */,
+				D8916A7623A398BC00DF4BB1 /* VDRouter.swift */,
 			);
 			path = route;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 		D8916A7323A3989200DF4BB1 /* interactor */ = {
 			isa = PBXGroup;
 			children = (
-				D8916A7C23A398F100DF4BB1 /* ViperDemoInteractor.swift */,
+				D8916A7C23A398F100DF4BB1 /* VDInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 		D8916A7423A3989B00DF4BB1 /* presenter */ = {
 			isa = PBXGroup;
 			children = (
-				D8916A7E23A398FB00DF4BB1 /* ViperDemoPresenter.swift */,
+				D8916A7E23A398FB00DF4BB1 /* VDPresenter.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 		D8916A7523A398A200DF4BB1 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				D8916A8723A39D8F00DF4BB1 /* ViperDemoViewController.swift */,
+				D8916A8723A39D8F00DF4BB1 /* VDViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -375,13 +375,13 @@
 			files = (
 				D8916A7B23A398E200DF4BB1 /* VDNewsResponse.swift in Sources */,
 				D8916A7923A398D500DF4BB1 /* VDNewsModel.swift in Sources */,
-				D8916A7D23A398F100DF4BB1 /* ViperDemoInteractor.swift in Sources */,
+				D8916A7D23A398F100DF4BB1 /* VDInteractor.swift in Sources */,
 				D8916A4C23A3967000DF4BB1 /* AppDelegate.swift in Sources */,
-				D8916A8923A39D8F00DF4BB1 /* ViperDemoViewController.swift in Sources */,
-				D8916A7723A398BC00DF4BB1 /* ViperDemoRouter.swift in Sources */,
-				D8916A7F23A398FB00DF4BB1 /* ViperDemoPresenter.swift in Sources */,
+				D8916A8923A39D8F00DF4BB1 /* VDViewController.swift in Sources */,
+				D8916A7723A398BC00DF4BB1 /* VDRouter.swift in Sources */,
+				D8916A7F23A398FB00DF4BB1 /* VDPresenter.swift in Sources */,
 				D8916A4E23A3967000DF4BB1 /* SceneDelegate.swift in Sources */,
-				D8916A7023A3988200DF4BB1 /* ViperDemoProtocols.swift in Sources */,
+				D8916A7023A3988200DF4BB1 /* VDProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ViperDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ViperDemoVersionString[];
+FOUNDATION_EXPORT double Pods_VDVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_VDVersionString[];
 

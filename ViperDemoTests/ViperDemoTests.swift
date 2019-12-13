@@ -1,15 +1,15 @@
 //
-//  ViperDemoTests.swift
-//  ViperDemoTests
+//  VDTests.swift
+//  VDTests
 //
 //  Created by Varun Kumar on 13/12/19.
 //  Copyright © 2019 VK. All rights reserved.
 //
 
 import XCTest
-@testable import ViperDemo
+@testable import VD
 
-class ViperDemoTests: XCTestCase {
+class VDTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

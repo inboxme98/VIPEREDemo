@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_ViperDemoTests : NSObject
+@interface PodsDummy_Pods_VDTests : NSObject
 @end
-@implementation PodsDummy_Pods_ViperDemoTests
+@implementation PodsDummy_Pods_VDTests
 @end
